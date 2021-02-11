@@ -1,0 +1,481 @@
+body, html{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(238, 238, 238);
+}
+
+.container {
+  margin: 0 auto 200px auto;
+}
+
+.h-back {
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(./image/header.jpg);
+  background-size: cover;
+}
+
+.header-hide {
+  display: none;
+}
+
+.min-menu {
+  width: 20px;
+  height: 20px;
+  margin: 5px 10px 0 0;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+#min-menu {
+  position: absolute;
+  left: -1000px;
+}
+
+#min-menu:checked  ~ .menu-hide {
+  left: 0;
+}
+
+.menu-hide {
+  position: absolute;
+  top: 65px;
+  left: -1000px;
+  background-color:rgba(255, 255, 255, 0.9);
+}
+
+
+.menu-hide ul li {
+  padding: 15px 10px;
+}
+
+.m-list:hover {
+  background-color: rgba(164, 205, 136,.7);
+}
+
+.m-sns:hover {
+  background-color:rgba(0,0, 0, 0);
+}
+
+.m-twitter,.m-instagram {
+  font-size: 60px;
+}
+
+.m-twitter:hover,.m-instagram:hover {
+  opacity: .5;
+}
+
+
+.min-menu:hover {
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+.h-bottom {
+  height: 65px;
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.h-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li ,.new-contents{
+  margin: 0 0 0 30px;
+}
+
+.new {
+  width: 650px;
+  display: flex;
+  border: 10px solid #A4CD88;
+  margin: 0 auto 100px auto;
+  padding: 30px;
+}
+
+.new-contents h3 {
+  color: palevioletred;
+  font-style: italic;
+}
+
+.concept {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 150px auto;
+  padding: 20px 0px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.concept h5 {
+  margin: 0 0 0 5px;
+  display: inline;
+}
+
+.concept p {
+  position: absolute;
+  margin: 0 0 0 5px;
+}
+
+.c-morning,.c-evening {
+  width: auto;
+  height: 300px;
+  min-width: 340px;
+  align-self: flex-start;
+}
+
+.morning-img,.evening-img {
+  width: 375px;
+  height: 300px;
+}
+
+.menu ,.shops{
+  margin: 0 auto 150px auto;
+}
+
+.m-contents {
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.m-contents h5 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.m-drink,.m-morning,.m-sand,.m-pasta,.m-cake,.m-alchol {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.m-drink:hover,.m-morning:hover,.m-sand:hover,.m-pasta:hover,.m-cake:hover,.m-alchol:hover {
+  opacity: .7;
+  transition: 1s;
+}
+
+.m-drink,.m-morning,.m-sand {
+  margin: 0 0 30px 0;
+}
+
+.m-drink {
+  background-image: url(./image/drink.jpg);
+}
+
+.m-morning {
+  background-image: url(./image/toast.jpg);
+}
+
+.m-sand {
+  background-image: url(./image/sandwich.jpg);
+}
+
+.m-pasta {
+  background-image: url(./image/pasta.jpg);
+}
+
+.m-cake {
+  background-image: url(./image/cake.jpg);
+}
+
+.m-alchol {
+  background-image: url(./image/alchol.jpg);
+}
+
+.shop h5 {
+  margin:0 0 5px 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.shop {
+  margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.s-left {
+  width: 400px;
+  height: 250px;
+}
+
+.s-right {
+  height: 250px;
+  margin: 0 0 0 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-self: flex-end;
+}
+
+.s-right p {
+  margin: 0;
+}
+
+.maps {
+  height: 120px;
+  width: 400px;
+}
+
+.maps-link {
+  display: none;
+}
+
+.sns-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.f-twitter {
+  margin: 0 50px 0 0;
+}
+
+.f-twitter,.f-instagram {
+  cursor: pointer;
+  color: #fff;
+  font-size: 70px;
+}
+
+.f-twitter:hover,.f-instagram:hover ,.c-button:hover{
+  opacity: 0.7;
+}
+
+footer {
+  height: 200px;
+}
+
+.footer-contents {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-title {
+  padding: 10px 0 20px 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  align-self: flex-end;
+}
+
+/* MENUのCSS */
+
+.menu-container {
+  width: 60%;
+  margin: 0 auto 80px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.m-box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-img {
+  width: 160px;
+  height: 160px;
+}
+
+.m-text {
+  width: 300px;
+}
+
+.m-text h5 {
+  margin: 0;
+}
+
+.m-text p {
+  line-height: 1.8;
+  margin: 0;
+}
+
+.m-text-box {
+  display: flex;
+}
+
+.m-name {
+  margin-right: 30px;
+}
+
+
+
+
+/* INFORMATIONのCSS */
+
+.i-header h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.712);
+}
+
+.i-header-back {
+  height: 300px;
+  margin:0 0 100px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: url(./image/work.jpg);
+  background-size: cover;
+}
+
+.i-copy {
+  padding: 10px;
+}
+
+.i-text-box {
+  width: 400px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.712);
+  margin: 0 20px 20px 0;
+}
+
+.i-container {
+  margin: 0 auto;
+}
+
+.about-time {
+  display: flex;
+  margin:0 0 60px 0;
+}
+
+.about-time img {
+  width: 250px;
+  height: 200px;
+}
+
+.i-left {
+  margin:0 0 0 20px;
+}
+
+.i-left h5 ,.about-time h5{
+  margin: 0;
+}
+
+.i-title-hide {
+  display: none;
+}
+
+.i-left a {
+  line-height: 1.8;
+  border-bottom: 3px solid #A4CD88;
+}
+
+
+/* CONTACTのCSS */
+
+.sub-title {
+  margin: 80px 0px 80px 60px;
+  border-bottom: 3px solid #A4CD88;
+  width: 300px;
+}
+
+.sub-title h3 {
+  margin:0 0 5px 0;
+}
+
+.text-box {
+  margin: 0 auto 50px auto;
+  padding: 20px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.contact-form th {
+  height: 60px;
+  text-align: left;
+  padding: 0 20px 0 0;
+}
+
+input {
+  width: 70%;
+  height:30px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.c-button {
+  width: 100px;
+  height: 30px;
+}
+
+
+
+
+
+/* 共通CSS */
+.c-title,.menu-hide ul a,.menu-icon,.c-header h3 ,.i-header h3,.i-copy{
+  font-size: 32px;
+}
+
+.new-contents h5 ,.new-contents h3,.concept h5,.m-contents h5,.f-title,.m-text h5,.sub-title {
+  font-size: 24px;
+}
+
+.shop h5,.c-left h5 ,.about-time h5,footer p ,.i-copy span{
+  font-size: 18px;
+}
+
+nav ul li:hover ,.maps-link:hover{
+  font-weight: bold;
+}
+
+.h-bottom,.concept, footer ,.c-button,.m-box{
+  background-color: #A4CD88;
+}
+
+.text-box,input,textarea {
+  border: 3px solid #A4CD88;
+}
+
+nav ul a ,.maps-link,.m-contents a,.h-title,.menu-hide ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-hide ul ,nav ul{
+  padding: 0;
+  list-style: none;
+}
+
+.menu-hide,.s-right,.c-header-back,.contact-form,textarea {
+  width: 100%;
+}
+
+.container,.menu,.shops,.footer-contents,.c-container,.text-box,form {
+  width: 80%;
+}

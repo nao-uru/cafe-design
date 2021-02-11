@@ -1,0 +1,228 @@
+@media screen and (max-width:1000px) {
+  .container ,.maps{
+    width: 100%;
+  }
+
+  .h-back {
+    height: 300px;
+  }
+
+  .s-left {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  
+  /* HOMEのCSS(RESPONSIVE) */
+  .h-back {
+    height: 150px;
+  }
+
+  .h-bottom {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .h-title {
+    margin: 0 0 0 10px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header-hide {
+    display: block;
+  }
+
+  .new {
+    width: 80%;
+    border: 3px solid #A4CD88;
+    padding: 10px;
+  }
+
+  .new img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .c-morning,.c-evening {
+    min-width: 50%;
+    height: auto;
+  }
+
+  .morning-img,.evening-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .m-drink,.m-morning,.m-sand,.m-pasta,.m-cake,.m-alchol {
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    background-size: contain;
+  }
+
+  .s-left ,.s-right{
+    width: 50%;
+    height: 50%;
+  }
+
+  .s-right {
+    margin-left: 10px;
+  }
+
+  .maps-link {
+    display: block;
+  }
+
+  .maps {
+    display: none;
+  }
+  
+  .twitter {
+    margin: 0 10px 0 ;
+  }
+  
+  .instagram {
+    margin: 0 0 0 10px;
+  }
+  
+  .f-twitter,.f-instagram {
+    font-size: 40px;
+  }
+  
+  footer {
+    height: 150px;
+  }
+
+
+  /* MENUのCSS(RESPONSIVE) */
+
+  .sub-title {
+    width: 150px;
+    margin: 10px 0 20px 20px;
+  }
+
+  .sub-title h3 {
+    margin: 0;
+  }
+  
+  .m-box {
+    width: 140px;
+    height: 140px;
+    margin: 0 20px 0 0;
+  }
+  
+  .m-img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .m-text {
+    width: 200px;
+  }
+  
+  .m-text p {
+    line-height: 1.5;
+  }
+
+
+  /* INFORMATIONのCSS(RESPONSIVE) */
+  .i-header h3 {
+    font-size: 24px;
+  }
+  
+  .i-header-back {
+    height: 200px;
+    justify-content: flex-start;
+  }
+  
+  .i-text-box {
+    width: 200px;
+    height: 100px;
+    margin: 0 0 5px 5px;
+  }
+
+  .i-copy {
+    margin: 0px;
+  }
+  
+  .about-time {
+    flex-direction: column;
+    align-items: center;
+    margin:0 0 60px 0;
+  }
+
+  .about-time h5 ,.c-hide{
+    display: block;
+    margin:0 0 10px 0;
+  }
+
+  .about-time img {
+    width: 200px;
+    height: 160px;
+  }
+
+  .i-left {
+    text-align: center;
+  }
+  .i-left h5 {
+    display: none;
+  }
+  
+  .i-left a {
+    line-height: 1.8;
+    border-bottom: 3px solid #A4CD88;
+  }
+
+
+  /* CONTACTのCSS(RESPONSIVE) */
+
+  .contact-form th {
+    height: 30px;
+    text-align: left;
+    padding: 0 10px 0 0;
+    font-weight: normal;
+  }
+  
+  input {
+    height:20px;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+
+
+
+  /* 共通CSS(RESPONSIVE) */
+
+  .concept,.new ,.menu,.sns{
+    margin-bottom: 60px;
+  }
+
+  .new p ,.new h5,.concept p,.shop p, footer p,.c-evening p,.c-morning p,.tetx-box p,.m-text p,.c-text-box p,.contact-form th,.about-time a,.i-copy span{
+    font-size: 12px;
+  }
+
+  .concept h5 ,.new h3,.m-contents h5,.shop h5,.new-contents h3,.f-title,.sub-title,.m-text h5,.about-time h5,.maps-link{
+    font-size: 16px;
+  }
+
+  .c-title ,.h-title,.i-copy{
+    font-size: 20px;
+  }
+
+  .concept .c-header-back{
+    width: 100%;
+  }
+
+  .menu-container,.c-container,form{
+    width: 90%;
+  }
+
+}
